@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition System</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>SRM University AP</h1>
+        <h2>Face Recognition System</h2>
+        <a href="{% url 'student_loginpage' %}"><button >Student Login</button></a>
+        <a href="{% url 'staff_loginpage' %}"><button >Staff Login</button></a>
+        <a href="{% url 'admin_loginpage' %}"><button >Admin Login</button></a>
+    </div>
+</body>
+</html>
